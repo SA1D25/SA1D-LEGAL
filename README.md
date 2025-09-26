@@ -1,1 +1,0 @@
-# SA1D-LEGAL
