@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SA1D Automate – TikTok Uploader</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto;max-width:820px;margin:0 auto;padding:24px;line-height:1.5}
+    header{margin-bottom:18px}
+    h1{margin:0 0 6px 0}
+    .card{border:1px solid #e6e6e6;border-radius:12px;padding:16px;margin:12px 0}
+    a.button{display:inline-block;padding:12px 16px;border-radius:10px;border:1px solid #ccc;text-decoration:none}
+    small{color:#666}
+    footer{margin-top:28px;font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SA1D Automate</h1>
+    <p>Simple web tool to upload & publish your own short videos to TikTok via TikTok for Developers.</p>
+  </header>
+
+  <div class="card">
+    <h3>Sign in</h3>
+    <p>This button opens the TikTok consent screen in the live product. (For review, see the demo video.)</p>
+    <a class="button" href="#" onclick="alert('Demo site – OAuth opens in the live app build.'); return false;">Continue with TikTok</a>
+  </div>
+
+  <div class="card">
+    <h3>How it works</h3>
+    <ol>
+      <li>Sign in with TikTok (Login Kit).</li>
+      <li>Select an MP4/MOV, set caption/visibility.</li>
+      <li>We call TikTok’s Content Posting API to upload & publish.</li>
+      <li>We show the success ID/link to the published video.</li>
+    </ol>
+  </div>
+
+  <footer>
+    <p>
+      <a href="https://sa1d25.github.io/SA1D-LEGAL/terms.html">Terms</a> ·
+      <a href="https://sa1d25.github.io/SA1D-LEGAL/privacy.html">Privacy</a> ·
+      Contact: <a href="mailto:sa1d@sa1d.net">sa1d@sa1d.net</a>
+    </p>
+    <small>© SA1D Media</small>
+  </footer>
+</body>
+</html>
